@@ -7,6 +7,7 @@ $.each(data, function(i, item) {
 
 $('.js-remove').on('click', function() {
   $(this).parents('.js-row').remove();
+  $('.js-textarea').val('');
 });
 
 $('.js-add-row').on('click', function() {
